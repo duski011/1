@@ -8,7 +8,7 @@ client.on("ready", () => {
         `with ${client.guilds.cache.size} server`,
         `with ${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0)} user`,
         "Youtube",
-        "g!help / Slash command",
+        " ${PREFIX} help / Slash command",
         "iLEGEND SQUAD",
         "BY iLsDUSKI ",
         "iLsSQUAD"
